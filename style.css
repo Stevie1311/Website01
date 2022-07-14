@@ -1,0 +1,171 @@
+/* font-family: 'Bree Serif' */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+
+
+
+/* body{ */
+        /* background-image: url("mainbackground.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-blend-mode: luminosity;
+} */
+
+#nav {
+    background-color: none;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    border-style:none;
+    border-color: black;
+}
+
+#nav a{
+    color:white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#nav a:hover {
+    color: red;
+}
+
+h1{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+h2{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.page1{
+    background-image: url("background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.welcome {
+    background-color: aqua;
+}
+
+.text {
+    color:white;
+    font-size: 30;
+    font-weight: bold;
+}
+
+.large {
+    font-size: 50px;
+}
+
+  /* Centre an image */
+.center {
+    display: flex;
+    flex-direction: center;
+    max-width:50%;
+    max-height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+}
+
+.image {
+    display: flex;
+    width: 50;
+}
+
+.bcentre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    border: 3px solid black
+  }
+
+
+/* Job redirect button */
+* {
+    font-family: sans-serif;
+  }
+  
+  body {
+    background-image: url("mainbackground.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: luminosity;
+  }
+  
+  .parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .parent button {
+    background-color: grey;
+    color: white;
+    border: none;
+    padding: 5px;
+    font-size: 31px;
+    height: 130px;
+    width: 500px;
+    box-shadow: 0 2px 4px darkslategray;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .parent button:active {
+    background-color: #48abe0;
+    box-shadow: 0 0 2px darkslategray;
+    transform: translateY(2px);
+  }
+  
+  .parent button:not(:first-child) {
+    margin-top: 10px;
+  }
+  
+  .round-3 {
+    border-radius: 20%;
+  }
+  
+/* Contact us/Apply now button */
+  .parent1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .parent1 button {
+    background-color: grey;
+    color: white;
+    border: none;
+    padding: 5px;
+    font-size: 12px;
+    height: 50px;
+    width: 200px;
+    box-shadow: 0 2px 4px darkslategray;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .parent1 button:active {
+    background-color: #48abe0;
+    box-shadow: 0 0 2px darkslategray;
+    transform: translateY(2px);
+  }
+  
+  .parent button:not(:first-child) {
+    margin-top: 10px;
+  }
+  
+  .round-1 {
+    border-radius: 20%;
+  }
